@@ -583,9 +583,6 @@ plt.imshow(labels[0], cmap='gray')
 ![png](./output/output_19_1.png)
 
 
-## Resulting bonding boxes
-
-
 ```python
 plt.imshow(draw_img)
 ```
