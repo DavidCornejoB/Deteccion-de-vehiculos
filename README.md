@@ -151,7 +151,7 @@ compare_images(car_image, notcar_image, "Carro", "No hay carro")
 ```
 
 
-![png](./output/output_7_0.png)
+![png](./vehicle-detection-master/output/output_7_0.png)
 
 
 ## Extrayendo caracteristicas
@@ -218,19 +218,19 @@ show_images(car_ch3, car_ch3_features, notcar_ch3, notcar_ch3_features, "Car ch 
 
 
 
-![png](./output/output_9_1.png)
+![png](./vehicle-detection-master/output/output_9_1.png)
 
 
 
-![png](./output/output_9_2.png)
+![png](./vehicle-detection-master/output/output_9_2.png)
 
 
 
-![png](./output/output_9_3.png)
+![png](./vehicle-detection-master/output/output_9_3.png)
 
 
 
-![png](./output/output_9_4.png)
+![png](./vehicle-detection-master/output/output_9_4.png)
 
 
 ## Clasificador de entrenamiento
@@ -449,11 +449,11 @@ show_images(output_image4, output_image5, output_image6)
 
 
 
-![png](./output/output_13_1.png)
+![png](./vehicle-detection-master/output/output_13_1.png)
 
 
 
-![png](./output/output_13_2.png)
+![png](./vehicle-detection-master/output/output_13_2.png)
 
 
 ## Mapas de calor
@@ -507,7 +507,7 @@ show_images(output_image, heatmap, "Car Positions", "Result")
 ```
 
 
-![png](./output/output_15_0.png)
+![png](./vehicle-detection-master/output/output_15_0.png)
 
 ```python
 def get_heatmap(bboxes):
@@ -542,27 +542,27 @@ show_images(output_image6, heatmap6)
 ```
 
 
-![png](./output/output_17_0.png)
+![png](./vehicle-detection-master/output/output_17_0.png)
 
 
 
-![png](./output/output_17_1.png)
+![png](./vehicle-detection-master/output/output_17_1.png)
 
 
 
-![png](./output/output_17_2.png)
+![png](./vehicle-detection-master/output/output_17_2.png)
 
 
 
-![png](./output/output_17_3.png)
+![png](./vehicle-detection-master/output/output_17_3.png)
 
 
 
-![png](./output/output_17_4.png)
+![png](./vehicle-detection-master/output/output_17_4.png)
 
 
 
-![png](./output/output_17_5.png)
+![png](./vehicle-detection-master/output/output_17_5.png)
 
 
 ## Imagen etiquetada
@@ -580,7 +580,7 @@ plt.imshow(labels[0], cmap='gray')
 
 
 
-![png](./output/output_19_1.png)
+![png](./vehicle-detection-master/output/output_19_1.png)
 
 
 ```python
@@ -595,4 +595,4 @@ plt.imshow(draw_img)
 
 
 
-![png](./output/output_21_1.png)
+![png](./vehicle-detection-master/output/output_21_1.png)
